@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+
+  <script>
+  let n
+  let a = [] // // Матрица эффективности a[разраб][задача]
+  let xy = []
+  let yx = []// Паросочетания: xy[разраб], yx[задача]
+  let vx = []
+  let vy = []// Альтернирующее дерево vx[разраб], vy[задача]
+  let maxrow = []
+  let mincol = []// Способности, изученность
+
+  function data()
+  {
+    //примем за стандартный размер матрицы 3х3
+    n = 3
+    //за диапазон значений матрицы возьмем (30;80)
+    for (var i = 0; i < n; i++) {
+      a[i] = new Array(3)
+    }
+    for (var i = 0; i < n; i++) {
+      for (var j = 0; j < n; j++) {
+        a[i][j] =  30 + Math.floor(Math.random() * Math.floor(50));
+        document.write(a[i][j]," ")
+      }
+      document.write('\n')
+    }
+  }
+  function dotry (i){
+    if (vx[i]) return false
+    vx[i] = true
+    for (let j=0; j<n; ++j)
+        if (a[i][j]-maxrow[i]-mincol[j] == 0)
+            vy[j] = true
+    for (let j=0; j<n; ++j)
+        if (a[i][j]-maxrow[i]-mincol[j] == 0 && yx[j] == -1) {
+            xy[i] = j
+            yx[j] = i
+            return true
+        }
+    for (let j=0; j<n; ++j)
+        if (a[i][j]-maxrow[i]-mincol[j] == 0 && dotry (yx[j])) {
+            xy[i] = j
+            yx[j] = i
+            return true;
+        }
+    return false;
+  }
+
+
+  function main(){
+
+    data()
+
+    for (var i = 0; i < n; i++) {
+      mincol.push(0)
+      maxrow.push(0)
+    }
+
+    for (let i=0; i<n; ++i){
+      for (let j=0; j<n; ++j){maxrow[i] = Math.max (maxrow[i], a[i][j])}
+    }
+
+    for (var i = 0; i < n; i++)  {
+      xy.push(-1)
+      yx.push(-1)
+    }
+
+    for(let c = 0;c<n; c++)
+    {
+      if (vx.lenth == 0 && vy.lenth == 0){// проверяем на пустоту массивы
+        for (var i = 0; i < n; i++)  {
+          vx.push(0)
+          vy.push(0)
+        }
+      }
+      else{
+        for (var i = 0; i < n; i++){
+          vx[i] = 0
+          vy[i] = 0
+        }
+      }
+      let k = 0
+      for (let i=0; i<n; ++i)
+          if (xy[i] == -1 && dotry (i))
+              ++k;
+      c += k;
+      if (k == 0) {
+          let z = INF
+          for (let i=0; i<n; ++i)
+              if (vx[i])
+                  for (let j=0; j<n; ++j)
+                      if (!vy[j])
+                          z = min (z, maxrow[i]+mincol[j]-a[i][j])
+          for (let i=0; i<n; ++i) {
+              if (vx[i]) maxrow[i] -= z
+              if (vy[i]) mincol[i] += z
+          }
+      }
+    }
+    let ans = 0;
+    for (let i=0; i<n; ++i){ans += a[i][xy[i]]}
+
+      document.write(ans, '\n')
+    for (let i=0; i<n; ++i)
+        document.write(xy[i]+1, '\n')
+  }
+  main()
+
+  </script>
+
+</body>
+</html>
