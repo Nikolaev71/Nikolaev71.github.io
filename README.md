@@ -14,6 +14,6 @@
 
 ![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d1pic.png)
 
-# Диаграмма прецендентов 
+# Диаграмма прецедентов 
 
 ![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d2pic.png)
