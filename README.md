@@ -10,10 +10,10 @@
 
 Предложение после: Строитель забивает гвоздь с помошь ударов молотка 
 
-## Диаграмма классов
+## Диаграмма классов:
 
 ![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d1pic.png)
 
-## Диаграмма прецедентов 
+## Диаграмма прецедентов: 
 
 ![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d2pic.png)
