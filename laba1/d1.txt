@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Строитель" as P {
+ Молоток
+Забить (Не забитый гвоздь, С помощью ударов молотка):: Забитый гвоздь
+}
+hide circle
+@enduml
