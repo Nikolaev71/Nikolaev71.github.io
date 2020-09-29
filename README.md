@@ -2,11 +2,18 @@
 ## Отчет о лабораторных работах 
 # Cтудент группы ИДБ-17-05 Николаев А.В.
 ## Лабораторная №1
+
 Предложение: Строитель забивает гвоздь
-![NOne](*https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/01_A0.png*)
+
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/01_A0.png)
 
 
-Предложение после:
-![NOne](*url*)
-Диаграмма классов
-Диаграмма прецендентов 
+Предложение после: Строитель забивает гвоздь с помошь ударов молотка 
+
+# Диаграмма классов
+
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d1pic.png)
+
+# Диаграмма прецендентов 
+
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d2pic.png)
