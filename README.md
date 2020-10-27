@@ -55,3 +55,19 @@
 
 
 ![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/%D0%BB%D0%B0%D0%B1%D0%B024.png?raw=true)
+## Лабораторная работа №3
+
+## Диаграмма последовательности:
+
+
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/%D0%BB%D0%B0%D0%B1%D0%B031.png?raw=true)
+
+Архитектор  отправляет заказ  прорабу, а тот подтверждает получение заказа и отпраляет план работ.
+
+## ER-диаграмма:
+
+
+
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/%D0%BB%D0%B0%D0%B1%D0%B032.png?raw=true)
+
+Заказ является записью в БД, которая относится к информационным потокам, и состоит из: Дома, Отзыва клиента и Плана работ.
