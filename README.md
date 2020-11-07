@@ -27,7 +27,7 @@
 Контексная:
 
 
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/%D0%BB%D0%B0%D0%B1%D0%B021.png?raw=true)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model1.png?raw=true)
 
 
 ### На диаграмме изображен процесс строительства дома
@@ -35,7 +35,7 @@
 
 Средний уровень:
     
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/%D0%BB%D0%B0%D0%B1%D0%B022.png?raw=true)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model2.png?raw=true)
 
 - A1 Менеджер получает на вход отзывы клиентов и подтверждение выполнения заказа от прораба. А на выходе получаются новые заказы и деньги.
 
@@ -47,7 +47,7 @@
 
 ## DFD-диаграмма (блок:Управлять):
     
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/%D0%BB%D0%B0%D0%B1%D0%B023.png?raw=true)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model3.png?raw=true)
 
  - Архитектор  получает отзывы по пяти бальной шкале (1-5 баллов) и заносит их в базу данных через форму редактирования заказа.
  
