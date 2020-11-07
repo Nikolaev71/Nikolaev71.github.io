@@ -1,73 +1,11 @@
- Nikolaev71.github.io 
-# Отчет о лабораторных работах 
-# Cтудент группы ИДБ-17-05 Николаев А.В.
-## Лабораторная №1
+# [ИДБ-17-05](https://github.com/stankin/design-part-1/wiki/list-idb-17-05) Николаев Александр
 
-Предложение: Строитель забивает гвоздь
+## Домашние задания по [семинару 1](https://github.com/stankin/design-part-1/wiki/sem1#%D0%9C%D0%B0%D0%B7%D0%B8%D1%82%D0%BE%D0%B2-%D0%90%D0%B9%D0%BD%D1%83%D1%80) и [семинару 2](https://github.com/stankin/design-part-1/wiki/sem2#%D0%9C%D0%B0%D0%B7%D0%B8%D1%82%D0%BE%D0%B2-%D0%90%D0%B9%D0%BD%D1%83%D1%80-%D0%9C%D0%B8%D0%BB%D0%B5%D0%BD%D0%B0-%D0%A8%D0%B5%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0)
 
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/01_A0.png)
+## [Отчет](https://github.com/Nikolaev71/Nikolaev71.github.io/wiki/%D0%9E%D1%82%D1%87%D1%91%D1%82-%D0%BF%D0%BE-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%BC-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%BC-1-3#%D0%9E%D1%82%D1%87%D0%B5%D1%82-%D0%BE-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D1%85-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%85) по лабораторным работам 1-3
 
+## Домашние задания по [семинарам 3-4](https://github.com/Nikolaev71/Nikolaev71.github.io/wiki/%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%B3%D1%80%D0%B0)
 
-Предложение после: Строитель забивает гвоздь с помошь ударов молотка 
+## [Отчет](https://github.com/Nikolaev71/Nikolaev71.github.io) по лабораторным работам 4-6
 
-# Диаграмма классов:
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d1pic.png)
-
-# Диаграмма прецедентов: 
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba1/d2pic.png)
-
-
-## Лабораторная работа №2
-
-
-## IDF0 Diagram
-
-Контексная:
-
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model1.png?raw=true)
-
-
-### На диаграмме изображен процесс строительства дома
-
-
-Средний уровень:
-    
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model2.png?raw=true)
-
-- A1 Менеджер получает на вход отзывы клиентов и подтверждение выполнения заказа от прораба. А на выходе получаются новые заказы и деньги.
-
-- А2 Прораб получает заказ , а на вход получает материалы. Исходя из заказа подготавливает план работ, нужные матеиалы  и инструменты на выход.
-
-- А3 Строитель получает заказ в виде плана работ, материалов и инструментов полученные от прораба. Строит по плану работ дом и выдает заказ заказчику.
-
-- А4 Заказчик получает свой дом. Оставляет отзыв.
-
-## DFD-диаграмма (блок:Управлять):
-    
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/model3.png?raw=true)
-
- - Архитектор  получает отзывы по пяти бальной шкале (1-5 баллов) и заносит их в базу данных через форму редактирования заказа.
- 
-## Usecase diagram
-
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/d2-2.png?raw=true)
-## Лабораторная работа №3
-
-## Диаграмма последовательности:
-
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/d3.png)
-
-Архитектор  отправляет заказ  прорабу, а тот подтверждает получение заказа и отпраляет план работ.
-
-## ER-диаграмма:
-
-
-
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/d33.png)
-
-Заказ является записью в БД, которая относится к информационным потокам, и состоит из: Построенного объекта, Отзыва клиента и Плана работ.
+## Рефераты: [разработанный](https://github.com/Nikolaev71/Nikolaev71.github.io) и [проверенный](https://github.com/Nikolaev71/Nikolaev71.github.io)
