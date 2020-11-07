@@ -68,6 +68,6 @@
 
 
 
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/%D0%BB%D0%B0%D0%B1%D0%B032.png?raw=true)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/d33.png)
 
-Заказ является записью в БД, которая относится к информационным потокам, и состоит из: Дома, Отзыва клиента и Плана работ.
+Заказ является записью в БД, которая относится к информационным потокам, и состоит из: Построенного объекта, Отзыва клиента и Плана работ.
