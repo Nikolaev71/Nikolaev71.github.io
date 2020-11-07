@@ -54,7 +54,7 @@
 ## Usecase diagram
 
 
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/d2.png)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba2/d2-2.png?raw=true)
 ## Лабораторная работа №3
 
 ## Диаграмма последовательности:
