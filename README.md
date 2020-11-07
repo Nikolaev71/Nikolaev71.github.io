@@ -60,7 +60,7 @@
 ## Диаграмма последовательности:
 
 
-![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/%D0%BB%D0%B0%D0%B1%D0%B031.png?raw=true)
+![none](https://github.com/Nikolaev71/Nikolaev71.github.io/blob/master/laba3/d3.png)
 
 Архитектор  отправляет заказ  прорабу, а тот подтверждает получение заказа и отпраляет план работ.
 
