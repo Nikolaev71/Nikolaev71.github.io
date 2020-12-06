@@ -6,6 +6,6 @@
 
 ## + Домашние задания по [семинарам 3-4](https://github.com/Nikolaev71/Nikolaev71.github.io/wiki/%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%B3%D1%80%D0%B0)
 
-## + [Отчет](https://github.com/Nikolaev71/Nikolaev71.github.io) по лабораторным работам 4-6
+## + [Отчет](https://github.com/Nikolaev71/Nikolaev71.github.io/wiki/lab4-6) по лабораторным работам 4-6
 
 ## + Рефераты: [разработанный](https://github.com/Nikolaev71/Nikolaev71.github.io) и [проверенный](https://github.com/Nikolaev71/Nikolaev71.github.io)
