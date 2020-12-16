@@ -8,4 +8,4 @@
 
 ## + [Отчет](https://github.com/Nikolaev71/Nikolaev71.github.io/wiki/lab4-6) по лабораторным работам 4-6
 
-## + Рефераты: [разработанный](https://github.com/Nikolaev71/Nikolaev71.github.io) и [проверенный](https://github.com/Nikolaev71/Nikolaev71.github.io)
+## + Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam02-5) и [проверенный]https://github.com/juliamikheeva/Mikheeva.github.io/wiki/%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B0%D1%82)
