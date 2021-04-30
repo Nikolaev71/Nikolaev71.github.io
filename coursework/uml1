@@ -1,0 +1,47 @@
+@startuml
+left to right direction
+
+actor "Заказчик"
+actor "Менеджер"
+actor "Директор"
+actor "CRM_система"
+
+usecase case1 as "Совершение заказов"
+
+usecase case2 as "Просмотр каталога услуг"
+
+usecase case4 as "Передача требований к заказу"
+
+usecase case5 as "Работа с заказами"
+
+usecase case6 as "Обработка заказов"
+
+usecase case7 as "Передача заказов в работу"
+
+usecase case8 as "Работа с нормативными документами"
+
+usecase case9 as "Создание регламента"
+
+usecase case10 as "Формирование порядка обработки заказов"
+
+usecase case11 as "Предоставление средств для работы с клиентами"
+
+usecase case12 as "Получение заказов от клиентов"
+
+Директор --> case8
+case8 ..> case9
+case8 ..> case10
+
+Заказчик --> case1
+case1 ..> case2
+case1 ..> case4
+
+Менеджер --> case5
+case5 ..> case12
+case5 ..> case6
+case5 ..> case7
+
+
+
+CRM_система --> case11
+@enduml
