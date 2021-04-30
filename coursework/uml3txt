@@ -9,13 +9,13 @@ database "БД" as base
 
 user -> web : Изменение статуса заказа
 activate web
-web -> serv : Запрос на изменение статуса заказа
+web -> serv : Запрос на изменение\nстатуса заказа
 activate serv
 serv -> base : Обновление информации
 activate base
-base -> serv : Успешное изменение статуса заказа
+base -> serv : Успешное изменение\nстатуса заказа
 serv -> web : Передача результата
-web -> user : Отображение результата изменения статуса заказа
+web -> user : Отображение результата\nизменения статуса заказа
 deactivate base
 deactivate serv
 deactivate web
