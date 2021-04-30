@@ -1,0 +1,22 @@
+@startuml
+skinparam monochrome true
+
+actor Менеджер as user
+participant "CRM-Система" as web
+participant "Сервер" as serv
+database "БД" as base
+
+
+user -> web : Изменение статуса заказа
+activate web
+web -> serv : Запрос на изменение статуса заказа
+activate serv
+serv -> base : Обновление информации
+activate base
+base -> serv : Успешное изменение статуса заказа
+serv -> web : Передача результата
+web -> user : Отображение результата изменения статуса заказа
+deactivate base
+deactivate serv
+deactivate web
+@enduml
